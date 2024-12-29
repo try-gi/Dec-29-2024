@@ -40,3 +40,56 @@ body
 {
     background-color: blueviolet;
 }
+
+h1 {text-align: center;}
+
+ul {
+    list-style: square;
+    background: blue;
+}
+
+ol{
+    list-style: upper-roman;
+    list-style: lower-alpha;
+    /* list-style-position: inside; */
+    list-style-position: outside;
+}
+li {
+    background-color: chartreuse;
+}
+
+a:link 
+{
+    padding: 10px;
+    border: dashed;
+    color: greenyellow;
+    background-color: purple;
+    text-align: center;
+    
+}
+
+a:visited {
+    
+    background-color: yellowgreen;
+    border-style: dotted;
+    border: 5px red;
+}
+
+a:hover
+{
+    background-color: green;
+    text-align: center;
+    font-size: large;
+    text-decoration: none;  
+    border-radius: 500px;
+
+}
+
+a:active
+{
+    background-color: red;
+    text-align: center;
+    font-size: small;
+    color: white;
+
+}
